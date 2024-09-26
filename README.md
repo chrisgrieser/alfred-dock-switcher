@@ -1,10 +1,10 @@
 <!-- LTeX: enabled=false -->
-# {{workflow-name}}
+# Alfred dock switcher
 <!-- LTeX: enabled=true -->
-![Download count](https://img.shields.io/github/downloads/chrisgrieser/{{workflow-id}}/total?label=Total%20Downloads&style=plastic)
-![Version number](https://img.shields.io/github/v/release/chrisgrieser/{{workflow-id}}?label=Latest%20Release&style=plastic)
+![Download count](https://img.shields.io/github/downloads/chrisgrieser/alfred-dock-switcher/total?label=Total%20Downloads&style=plastic)
+![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-dock-switcher?label=Latest%20Release&style=plastic)
 
-{{workflow-description}}
+Switch between dock layouts.
 
 - [ ] Showcase image to be inserted here.
 
@@ -14,7 +14,7 @@
   to ((do this))
 
 ## Installation
-[➡️ Download the latest release.](https://github.com/{{repo}}/releases/latest)
+[➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-dock-switcher/releases/latest)
 
 When admitted to the Alfred Gallery, the workflow auto-updates via Alfred's
 workflow-update mechanism.
