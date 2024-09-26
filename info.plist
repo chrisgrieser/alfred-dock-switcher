@@ -386,9 +386,8 @@
 	+ &lt;kbd&gt;⏎&lt;/kbd&gt;: Switch to the layout (load the layout).
 	+ &lt;kbd&gt;⌘⏎&lt;/kbd&gt;: Overwrite the layout with the layout of the current dock.
 
-&gt; [!WARNING]
-&gt; This workflow saves **all** information related to the current dock. This
-&gt; includes dock sizes, dock position, animation settings, or hot corners.
+⚠️ This workflow saves **all** information related to the current dock. This 
+includes dock sizes, dock position, animation settings, or hot corners.
 
 ## Automation
 Load a dock layout from another app via this AppleScript:
