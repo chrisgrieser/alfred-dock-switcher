@@ -6,12 +6,31 @@
 
 Switch between dock layouts.
 
-- [ ] Showcase image to be inserted here.
+<img alt="Showcase" width=70% src="https://github.com/user-attachments/assets/ac0d7d3e-f323-46da-96a3-66744d89b57c">
 
 ## Usage
-- ((Do this)) via the keyword `xxx`.
-- Press the [hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/)
-  to ((do this))
+- Save the current dock as a layout for this workflow via the keyword `:dock
+  new`.
+- Select a dock layout via the keyword `dock`:
+	+ <kbd>⏎</kbd>: Switch to the layout (load the layout).
+	+ <kbd>⌘⏎</kbd>: Overwrite the layout with the layout of the current dock.
+
+> [!WARNING]
+> This workflow saves **all** information related to the current dock. This
+> includes dock sizes, dock position, animation settings, or hot corners.
+
+## Automation
+Load a dock layout from another app via this AppleScript:
+
+```applescript
+tell application id "com.runningwithcrayons.Alfred" to run trigger "load-dock-layout" in workflow "de.chris-grieser.dock-switcher" with argument "NAME_OF_DOCK_LAYOUT"`
+```
+
+or via URI:
+
+```txt
+alfred://runtrigger/de.chris-grieser.dock-switcher/load-dock-layout/?argument=NAME_OF_DOCK_LAYOUT
+```
 
 ## Installation
 [➡️ Download the latest release.](https://github.com/chrisgrieser/alfred-dock-switcher/releases/latest)
