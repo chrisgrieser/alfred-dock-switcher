@@ -1,7 +1,5 @@
-<!-- LTeX: enabled=false -->
-# Alfred dock switcher
-<!-- LTeX: enabled=true -->
-![GitHub downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-dock-switcher/total?label=Total%20Downloads&style=plastic)
+# Alfred Dock Switcher
+![GitHub downloads](https://img.shields.io/github/downloads/chrisgrieser/alfred-dock-switcher/total?label=GitHub%20Downloads&style=plastic&logo=github)
 ![Alfred Gallery downloads](https://img.shields.io/badge/dynamic/yaml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchrisgrieser%2F.config%2Frefs%2Fheads%2Fmain%2FAlfred.alfredpreferences%2Falfred-workflow-download-count.yaml&style=plastic&logo=alfred&label=Gallery%20Downloads&color=%235C1F87&query=alfred-dock-switcher)
 ![Version number](https://img.shields.io/github/v/release/chrisgrieser/alfred-dock-switcher?label=Latest%20Release&style=plastic)
 
@@ -13,8 +11,8 @@ Switch between dock layouts.
 - Save the current dock as a layout for this workflow via the keyword `:dock
   new`.
 - Select a dock layout via the keyword `dock`:
-	+ <kbd>⏎</kbd>: Switch to the layout (load the layout).
-	+ <kbd>⌘⏎</kbd>: Overwrite the layout with the layout of the current dock.
+	+ <kbd>⏎</kbd>: Switch to the layout (i.e., load the layout).
+	+ <kbd>⌘⏎</kbd>: Overwrite with the layout of the current dock.
 
 > [!WARNING]
 > This workflow saves **all** information related to the current dock. This
