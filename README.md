@@ -22,7 +22,9 @@ Switch between dock layouts.
 Load a dock layout from another app via this AppleScript:
 
 ```applescript
-tell application id "com.runningwithcrayons.Alfred" to run trigger "load-dock-layout" in workflow "de.chris-grieser.dock-switcher" with argument "NAME_OF_DOCK_LAYOUT"`
+tell application id "com.runningwithcrayons.Alfred" to run trigger ¬ 
+	"load-dock-layout" in workflow ¬ 
+	"de.chris-grieser.dock-switcher" with argument "NAME_OF_DOCK_LAYOUT" 
 ```
 
 or via URI:
