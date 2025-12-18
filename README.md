@@ -11,8 +11,8 @@ Switch between dock layouts.
 - Save the current dock as a layout for this workflow via the keyword `:dock
   new`.
 - Select a dock layout via the keyword `dock`:
-	+ <kbd>⏎</kbd>: Switch to the layout (i.e., load the layout).
-	+ <kbd>⌘⏎</kbd>: Overwrite with the layout of the current dock.
+    - <kbd>⏎</kbd>: Switch to the layout (i.e., load the layout).
+    - <kbd>⌘⏎</kbd>: Overwrite with the layout of the current dock.
 
 > [!WARNING]
 > This workflow saves **all** information related to the current dock. This
@@ -52,10 +52,10 @@ compatibility. If you are interested in this subject, feel free to get in touch.
 - [LinkedIn](https://www.linkedin.com/in/christopher-grieser-ba693b17a/)
 
 <a href='https://ko-fi.com/Y8Y86SQ91' target='_blank'>
-	<img
-	height='36'
-	style='border:0px;height:36px;'
-	src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
-	border='0'
-	alt='Buy Me a Coffee at ko-fi.com'
+    <img
+    height='36'
+    style='border:0px;height:36px;'
+    src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
+    border='0'
+    alt='Buy Me a Coffee at ko-fi.com'
 /></a>
